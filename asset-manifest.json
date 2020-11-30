@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/currency-exchanger/static/css/main.305d06b6.chunk.css",
+    "main.js": "/currency-exchanger/static/js/main.7f066057.chunk.js",
+    "main.js.map": "/currency-exchanger/static/js/main.7f066057.chunk.js.map",
+    "runtime-main.js": "/currency-exchanger/static/js/runtime-main.2fb209fa.js",
+    "runtime-main.js.map": "/currency-exchanger/static/js/runtime-main.2fb209fa.js.map",
+    "static/js/2.16f3788d.chunk.js": "/currency-exchanger/static/js/2.16f3788d.chunk.js",
+    "static/js/2.16f3788d.chunk.js.map": "/currency-exchanger/static/js/2.16f3788d.chunk.js.map",
+    "static/js/3.4a081aad.chunk.js": "/currency-exchanger/static/js/3.4a081aad.chunk.js",
+    "static/js/3.4a081aad.chunk.js.map": "/currency-exchanger/static/js/3.4a081aad.chunk.js.map",
+    "index.html": "/currency-exchanger/index.html",
+    "static/css/main.305d06b6.chunk.css.map": "/currency-exchanger/static/css/main.305d06b6.chunk.css.map",
+    "static/js/2.16f3788d.chunk.js.LICENSE.txt": "/currency-exchanger/static/js/2.16f3788d.chunk.js.LICENSE.txt",
+    "static/media/ecoPayz.03749fa8.png": "/currency-exchanger/static/media/ecoPayz.03749fa8.png",
+    "static/media/edy.4db77b54.png": "/currency-exchanger/static/media/edy.4db77b54.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fb209fa.js",
+    "static/js/2.16f3788d.chunk.js",
+    "static/css/main.305d06b6.chunk.css",
+    "static/js/main.7f066057.chunk.js"
+  ]
+}
