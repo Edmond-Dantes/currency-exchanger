@@ -1,0 +1,20 @@
+.container {
+  padding: 2rem;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.columnWrapper {
+  display: flex;
+}
+
+.column {
+  flex: 2 0 auto;
+  margin-right: 1rem;
+  max-width: 66%;
+}
+
+.columnOneThird {
+  flex: 1 0 auto;
+  max-width: 33%;
+}

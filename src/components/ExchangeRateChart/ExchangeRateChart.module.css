@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rateWrapper {
+  height: 10rem;
+  width: 10rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: gray;
+  border-radius: 0.5rem;
+}
+
+.rateTitle {
+  margin-bottom: 2rem;
+}
+.rateNumber {
+  color: yellow;
+  margin-bottom: 2rem;
+}

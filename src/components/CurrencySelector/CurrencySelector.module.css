@@ -1,0 +1,29 @@
+.list {
+  list-style: none;
+  padding: 0 1rem 0 0;
+  margin: 0;
+}
+
+.item {
+  position: relative;
+  background-color: gray;
+  padding: 1rem 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.focusedItem {
+  background-color: green;
+  outline: none;
+}
+
+.itemTail {
+  position: absolute;
+  top: calc(50% - 1rem);
+  right: -0.8rem;
+  width: 0; 
+  height: 0; 
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid green;
+}

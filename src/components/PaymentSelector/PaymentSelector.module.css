@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageWrapper {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: darkgray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.imageWrapperWithImage {
+  background-color: white;
+}
+
+.imageWrapperWithImage:hover {
+  cursor: pointer;
+}
+
+.image {
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
+}

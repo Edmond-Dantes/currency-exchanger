@@ -1,0 +1,32 @@
+.contentWrapper {
+  display: flex;
+  padding: 1rem;
+}
+
+.imageWrapper {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-color: darkgray;
+  border-radius: 0.5rem;
+  
+}
+
+.imageWrapperWithImage {
+  background-color: white;
+}
+
+.image {
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
+}
+
+.descriptionWrapper {
+  padding: 1rem;
+}
+
+.highlightedDescription {
+  color: red;
+}

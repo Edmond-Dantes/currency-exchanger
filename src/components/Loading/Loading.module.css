@@ -1,0 +1,94 @@
+.wrapper {
+  z-index: 999;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  display: inline-block;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  margin: 0px 1rem;
+  border-radius: 25px;
+}
+.ball1 {
+  animation-name: bounce;
+  animation-delay: 0s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.ball2 {
+  animation-name: bounce;
+  animation-delay: 0.1s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.ball3 {
+  animation-name: bounce;
+  animation-delay: 0.2s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.ball4 {
+  animation-name: bounce;
+  animation-delay: 0.3s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.ball5 {
+  animation-name: bounce;
+  animation-delay: 0.4s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.ball6 {
+  animation-name: bounce;
+  animation-delay: 0.5s;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    height: 7px;
+    width: 15px;
+    transform: translateY(0);
+  }
+  2% {
+    height: 15px;
+    width: 15px;
+  }
+  20% {
+    height: 15px;
+    width: 15px;
+    transform: translateY(-50px);
+  }
+  40% {
+    transform: translateY(3px);
+  }
+  42% {
+    height: 13px;
+    width: 15px;
+  }
+  60% {
+    height: 15px;
+    width: 15px;
+    transform: translateY(0);
+  }
+}
